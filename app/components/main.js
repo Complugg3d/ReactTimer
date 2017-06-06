@@ -5,10 +5,9 @@ import Nav from 'nav';
 const Main = (props) => {
   return (
     <div>
-      <div>
-        <Nav/>
-        <div>
-          <p>Main.js render</p>
+      <Nav/>
+      <div className="row">
+        <div className="column small-centered medium-6 large-4">
           {props.children}
         </div>
       </div>
