@@ -4,6 +4,7 @@ class Controls extends Component {
   constructor(props) {
     super(props);
   }
+  
   onStatusChange(newStatus) {
     return () => {
       this.props.onStatusChange(newStatus);
