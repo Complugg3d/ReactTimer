@@ -66,8 +66,9 @@ class Countdown extends Component {
 
     return (
       <div>
-      <Clock totalSeconds={count}/>
-      {renderControlArea()}
+        <h1 className="page-title">Countdown App</h1>
+        <Clock totalSeconds={count}/>
+        {renderControlArea()}
       </div>
     );
   }
