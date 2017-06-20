@@ -4,7 +4,7 @@ class Controls extends Component {
   constructor(props) {
     super(props);
   }
-  
+
   onStatusChange(newStatus) {
     return () => {
       this.props.onStatusChange(newStatus);
@@ -16,7 +16,7 @@ class Controls extends Component {
     var renderStartStopButton = () => {
       if (countdownStatus === 'started') {
         return <button className="button secondary" onClick={this.onStatusChange('paused')}>Pause</button>
-      } else if (countdownStatus === 'paused') {
+      } else {
         return <button className="button primary" onClick={this.onStatusChange('started')}>Start</button>
       }
     };
