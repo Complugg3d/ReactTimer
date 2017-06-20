@@ -6,7 +6,7 @@ import Timer from 'timer';
 import Countdown from 'countdown';
 
 //load foundation
-require('style!css!foundation-sites/dist/css/foundation.min.css');
+//require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
 //load custom css
